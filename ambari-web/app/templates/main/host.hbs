@@ -112,9 +112,9 @@
             </a>
           </td>
           <td {{bindAttr class="view.hasNoComponents:not-active-link :host-table-components"}}>
-            <a href="#" class="black" {{action displayComponents target="view"}}>
-              {{view.content.hostComponents.length}} {{pluralize view.content.hostComponents.length singular="t:common.component" plural="t:common.components"}}
-            </a>
+            <span href="#" class="black" {{action displayComponents target="view"}}>
+              {{view.content.hostComponents.length}}
+            </span>
           </td>
         {{/view}}
       {{/each}}
