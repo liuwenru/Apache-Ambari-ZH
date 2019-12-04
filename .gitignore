@@ -33,3 +33,7 @@ createDDL.jdbc
 /build
 ambari_python.egg-info
 ambari-web/package-lock.json
+
+ambari-admin/src/main/resources/ui/admin-web/npm-debug.log
+ambari-logsearch/ambari-logsearch-it/bin/
+ambari-logsearch/ambari-logsearch-server/.factorypath

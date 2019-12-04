@@ -267,23 +267,23 @@ App.HostComponentStatus = {
   getTextStatus: function (value) {
     switch (value) {
       case this.installing:
-        return 'Installing...';
+        return '安装中...';
       case this.install_failed:
-        return 'Install Failed';
+        return '安装失败';
       case this.stopped:
-        return 'Stopped';
+        return '已停止';
       case this.started:
-        return 'Started';
+        return '运行中';
       case this.starting:
-        return 'Starting...';
+        return '启动中...';
       case this.stopping:
-        return 'Stopping...';
+        return '停止中...';
       case this.unknown:
         return 'Heartbeat Lost';
       case this.upgrade_failed:
         return 'Upgrade Failed';
       case this.disabled:
-        return 'Disabled';
+        return '不可用';
       case this.init:
         return 'Install Pending...';
     }
