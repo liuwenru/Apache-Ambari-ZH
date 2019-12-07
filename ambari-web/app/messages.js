@@ -257,7 +257,7 @@ Em.I18n.translations = {
   'common.ignore': '忽略',
   'common.restart': '重启',
   'common.discard': '抛弃',
-  'common.actions': '行动',
+  'common.actions': '操作',
   'common.maintenance': '维护',
   'common.passive_state': '维护模式',
   'common.select': '选取',
