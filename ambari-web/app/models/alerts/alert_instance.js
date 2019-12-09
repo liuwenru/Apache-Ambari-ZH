@@ -121,7 +121,7 @@ App.AlertInstance = DS.Model.extend({
     var triggeredFor = lastTriggered ? $.timeago(new Date(lastTriggered)) : '';
     $.timeago.settings.strings.suffixAgo = previousSuffixAgo;
     $.timeago.settings.strings.prefixAgo = previousPrefixAgo;
-    return triggeredFor.replace(/for/g,"状态保持").replace(/days/g,"天").replace(/hours/g,"小时").replace(/weeks/g,"周").replace(/months/g,"月").replace(/about a month/g,"大概一个月").replace(/about a month ago/g,"大概一个月").replace(/about a day/g,"大概一个天");
+    return triggeredFor.replace(/for/g,"状态保持").replace(/days/g,"天").replace(/hours/g,"小时").replace(/weeks/g,"周").replace(/months/g,"月").replace(/about a month/g,"大概一个月").replace(/about a month ago/g,"大概一个月").replace(/about a day/g,"大概一天");
   }.property('originalTimestamp'),
 
   /**
