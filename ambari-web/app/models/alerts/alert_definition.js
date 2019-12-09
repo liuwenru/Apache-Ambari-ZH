@@ -110,7 +110,7 @@ App.AlertDefinition = DS.Model.extend({
    */
   lastTriggeredAgoFormatted: function () {
     var lastTriggered = this.get('lastTriggeredRaw');
-    return lastTriggered ? ((($.timeago(new Date(lastTriggered))).replace(/days ago/g,"天前")).replace(/hours ago/g,"小时前")).replace(/about a day ago/g,"大约一天前"): '';
+    return lastTriggered ? ((($.timeago(new Date(lastTriggered))).replace(/days ago/g,"天前")).replace(/hours ago/g,"小时前")).replace(/about a day ago/g,"大约一天前").replace(/about month ago/g,"大约一月前"): '';
   }.property('lastTriggeredRaw'),
 
   lastTriggeredVerboseDisplay: function () {
@@ -131,7 +131,7 @@ App.AlertDefinition = DS.Model.extend({
     var triggeredFor = lastTriggered ? $.timeago(new Date(lastTriggered)) : '';
     $.timeago.settings.strings.suffixAgo = previousSuffixAgo;
     $.timeago.settings.strings.prefixAgo = previousPrefixAgo;
-    return triggeredFor.replace(/for/g,"状态保持").replace(/days/g,"天").replace(/hours/g,"小时").replace(/weeks/g,"周");
+    return triggeredFor.replace(/for/g,"状态保持").replace(/days/g,"天").replace(/hours/g,"小时").replace(/weeks/g,"周").replace(/months/g,"月");
   }.property('lastTriggeredRaw'),
 
   /**
