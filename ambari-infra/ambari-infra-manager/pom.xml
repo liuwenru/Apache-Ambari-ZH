@@ -36,7 +36,7 @@
     <spring-batch.version>4.1.0.RELEASE</spring-batch.version>
     <sqlite.version>3.8.11.2</sqlite.version>
     <spring-data-solr.version>3.0.10.RELEASE</spring-data-solr.version>
-    <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
+    <spring-boot.version>2.5.12</spring-boot.version>
     <swagger.version>1.5.16</swagger.version>
     <jjwt.version>0.6.0</jjwt.version>
     <aws-sdk.version>1.11.445</aws-sdk.version>
