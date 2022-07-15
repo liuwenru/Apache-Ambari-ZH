@@ -39,7 +39,7 @@
     <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
     <swagger.version>1.5.16</swagger.version>
     <jjwt.version>0.6.0</jjwt.version>
-    <aws-sdk.version>1.11.445</aws-sdk.version>
+    <aws-sdk.version>1.12.261</aws-sdk.version>
     <swagger-maven-plugin-version>3.1.7</swagger-maven-plugin-version>
   </properties>
 
